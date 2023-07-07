@@ -9,7 +9,7 @@ eval_shared_model = tfma.default_eval_shared_model(
 # eval config 제공, label 정보 및 표시할 모든 지표 정의
 eval_config = tfma.EvalConfig(
       model_specs=[tfma.ModelSpec(label_key='consumer_disputed')],
-      slicing_specs[tfma.SlicingSpec()],
+      slicing_specs=[tfma.SlicingSpec()],
       metrics_specs=[
             tfma.MetricsSpec(metrics=[
                   tfma.MetricConfig(class_name='BinaryAccuracy'),
