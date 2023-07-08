@@ -1,3 +1,9 @@
 tensorflow
 tensorflow-serving-api
 request
+Pillow==9.1.1
+tensorflow_hub
+requests
+numpy
+grpcio
+tensorflow_serving_api
